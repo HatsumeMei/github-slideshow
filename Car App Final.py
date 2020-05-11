@@ -122,9 +122,9 @@ outputWelcomeMessage()
 
 while userExit == False:
     vehicleChoice = getVehicleType()
-    #print(vehicleChoice)
+    print(vehicleChoice)
     optionChoice = getVehicleOptions()
-    #print(optionChoice)
+    print(optionChoice)
 
     discountType = input("Are you a (V)eteran, or an (E)mployee (or n for none)? ")
 
@@ -141,8 +141,8 @@ while userExit == False:
         else:
             discountType = input("Please enter v (for veteran), e (for employee), or none? ")
 
-    #print(str(totalAmount))
-    #print(str(discountAmount * 100) + "%")
+    print(str(totalAmount))
+    print(str(discountAmount * 100) + "%")
     outputTotal(vehicleChoice, optionChoice, totalAmount, discountAmount)
 
     userExitChoice = input("Would you like to purchase another vehicle?")
