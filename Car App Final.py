@@ -33,7 +33,7 @@ def getVehicleType():
         elif userVehicleChoice == 99:
             return "batmobile"
         elif userVehicleChoice == 88:
-            return "delorean"
+            return "Delorean"
         else:
             print("Please enter a valid number (1-3)")
 
